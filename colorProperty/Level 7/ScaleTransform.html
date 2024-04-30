@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Transform</title>
+    <style>
+        #box1{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: plum;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            text-align: center;
+            transform: scale(2);
+        }
+        #box1:hover{
+            transform: rotate(170deg);
+        }
+        #box2{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: blue;
+            position: relative;
+            top: 100px;
+            left: 50px;
+            text-align: center;
+            transform: scale(4);
+        }
+        #box2:hover{
+            transform: rotate(240deg);
+        }
+        #box3{
+            height: 60px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: greenyellow;
+            position: relative;
+            top: 150px;
+            left: 50px;
+            text-align: center;
+            transform: scalex(2);
+        }
+        #box3:hover{
+            transform: rotate(170deg);
+        }
+        #box4{
+            height: 60px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: darkgreen;
+            position: relative;
+            top: 200px;
+            left: 50px;
+            text-align: center;
+            transform: rotatey(45deg);
+        }
+        #box4:hover{
+            transform: scaley(4);
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">Rotate</div>
+    <div id="box2">Rotate 180</div>
+    <div id="box3">Rotate X 45 deg</div>
+    <div id="box4">Rotate Y 45 deg</div>
+</body>
+</html>
